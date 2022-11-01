@@ -1,0 +1,215 @@
+/* HOME */
+
+h1 {
+  font-size: 150px;
+}
+h2 {
+  font-size: 100px;
+}
+h3{
+  font-size: 56px;
+}
+h4{
+  font-size: 32px;
+  letter-spacing: 3px;
+}
+h5{
+  font-size: 28px;
+
+}
+h6 {
+  font-size: 20px;
+}
+hr{
+  border-top: 1px solid white;
+  margin-top: 30px;
+}
+body, .homebody{
+  background-image: url(backimghome.jpg);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+body, .destbody{
+  background-image: url(backimgdest.jpg);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+body, .crewbody{
+  background-image: url(backimgcrew.jpg);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+body, .techbody{
+  background-image: url(backimgtech.jpg);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.homeimg {
+  width: 100vw;
+  z-index: -1;
+  position: absolute;
+}
+.logo {
+  margin: 0 ;
+}
+.logodesign {
+  border-top: 1px solid white;
+  width: 37%;
+  position: absolute;
+  left: 15%;
+  top: 10%;
+
+}
+.homenavrow {
+  padding: 4.5% 5%;
+  margin-right: 0;
+}
+.homenav{
+  -webkit-backdrop-filter: blur(8px);
+ backdrop-filter: blur(15px);
+ padding: 4% 2%;
+ position: relative;
+ bottom: 25%;
+
+}
+.nav-item{
+  color: white;
+    margin: 0 50px;
+    font-size: 20px;
+}
+.nav-item:hover{
+  text-decoration: underline;
+}
+.barlow {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.bella {
+  font-family: 'Bellefair', serif;
+}
+.sansfont{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.purplefont{
+  color: #D0D6F9;
+}
+.whitefont {
+  color: white;
+}
+#intro{
+  margin-top:7%;
+  padding-left: 15%;
+}
+.introcol{
+  padding-right: 10%;
+}
+.spacing{
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}
+.explore {
+  text-align: center;
+}
+.explore:hover{
+
+}
+
+/* DESTINATION */
+
+#destination {
+  padding: 0 15%;
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  color: #B2B2B2;
+}
+.destiny{
+  margin-top: 5%;
+  position: relative;
+  overflow-y: scroll;
+  height: 600px;
+}
+.scrollrow{
+  margin: 150px 0;
+}
+
+/* CREW */
+
+#crew{
+  padding-left: 15%;
+}
+.crewcarousel{
+  margin: 12% 0;
+  padding-right: 10%;
+}
+.buttongrp{
+  margin-top: 5%;
+}
+.buttons{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.techcarou{
+  position: absolute;
+  top: 45%;
+  left: 15%;
+}
+.prevbutton{
+  position:absolute;
+  top: 98%;
+  left: 35%;
+}
+.nextbutton{
+  position: absolute;
+  top: 98%;
+  left: 45%;
+}
+#technology {
+  padding-left: 15%;
+  margin-top: 300px;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width:1000px) {
+  .techspace{
+    margin-top: 50px;
+  }
+  .techcol {
+    margin-top: 75px;
+  }
+  .logo {
+    margin-bottom: 50px;
+  }
+  body, .homebody {
+        background-image: url(backimgmobhome.jpg);
+    }
+  body, .destbody {
+        background-image: url(backdestmob.jpg);
+  }
+  body, .crewbody {
+        background-image: url(backcrewmob.jpg);
+  }
+  body, .crewbody {
+        background-image: url(backtechmob.jpg);
+  }
+}
